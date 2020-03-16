@@ -14,6 +14,7 @@
 		40086AFE1EC7F7AF00FD79F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40086AFC1EC7F7AF00FD79F6 /* LaunchScreen.storyboard */; };
 		40086B061EC7F7CD00FD79F6 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 40086B051EC7F7CD00FD79F6 /* PublicArt.json */; };
 		7008EEC3242009F60067DF05 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7008EEC2242009F60067DF05 /* Artwork.swift */; };
+		7008EEC5242017DD0067DF05 /* ArtworksViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7008EEC4242017DD0067DF05 /* ArtworksViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		40086AFF1EC7F7AF00FD79F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40086B051EC7F7CD00FD79F6 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
 		7008EEC2242009F60067DF05 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		7008EEC4242017DD0067DF05 /* ArtworksViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				40086AF31EC7F7AF00FD79F6 /* AppDelegate.swift */,
 				7008EEC2242009F60067DF05 /* Artwork.swift */,
 				40086AF51EC7F7AF00FD79F6 /* ViewController.swift */,
+				7008EEC4242017DD0067DF05 /* ArtworksViews.swift */,
 				40086AF71EC7F7AF00FD79F6 /* Main.storyboard */,
 				40086B051EC7F7CD00FD79F6 /* PublicArt.json */,
 				40086AFA1EC7F7AF00FD79F6 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40086AF61EC7F7AF00FD79F6 /* ViewController.swift in Sources */,
+				7008EEC5242017DD0067DF05 /* ArtworksViews.swift in Sources */,
 				7008EEC3242009F60067DF05 /* Artwork.swift in Sources */,
 				40086AF41EC7F7AF00FD79F6 /* AppDelegate.swift in Sources */,
 			);

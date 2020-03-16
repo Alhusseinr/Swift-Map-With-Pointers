@@ -56,7 +56,7 @@ class ViewController: UIViewController {
                 let works = dictionary["data"] as? [[Any]]
                 else {return}
             
-            let validWorks = works.flatMap { Artwork(json: $0) }
+            let validWorks = works.compactMap { Artwork(json: $0) }
             artworks.append(contentsOf: validWorks)
         }
         
@@ -67,6 +67,7 @@ class ViewController: UIViewController {
 //            coordinate: CLLocationCoordinate2D(latitude: 21.283921, longitude: -157.831661)
 //        )
 //        mapView.addAnnotation(artwork)
+        mapView.register(ArtworkView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
         localInitalData()
         mapView.addAnnotations(artworks)
   }
